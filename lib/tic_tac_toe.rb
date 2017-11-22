@@ -83,6 +83,7 @@ class TicTacToe
   end
 
   def draw?
+
     full? && !won?
   end
 
@@ -105,5 +106,7 @@ class TicTacToe
     elsif draw?
       puts "Cat's Game!"
     end
+  end
+    full? && won?
   end
 end
